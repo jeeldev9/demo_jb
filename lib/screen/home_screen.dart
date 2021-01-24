@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:demo_jb/page_animation/animation_1.dart';
-import 'package:demo_jb/api/date_api/home_page.dart';
-
+import 'package:demo_jb/local_auth/home_screen.dart';
 class HomeScreen extends StatefulWidget {
   @override
   _HomeScreenState createState() => _HomeScreenState();
@@ -51,10 +50,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => DateApiHomePage()));
+                          builder: (context) => HomeScreenLocalAuth()));
                 },
                 child: Text(
-                  "API",
+                  "Local Auth",
                   style: TextStyle(
                     color: Colors.white,
                   ),
