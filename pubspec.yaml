@@ -28,6 +28,12 @@ dependencies:
   day_selector: ^1.0.0
   table_calendar: ^2.3.3
   local_auth: ^0.6.3+4
+  cloud_firestore:
+  flutter_staggered_grid_view:
+  firebase_admob: ^0.5.2
+  mlkit:
+  image_picker:
+  flutter_camera_ml_vision: ^2.2.4
 
 
   # The following adds the Cupertino Icons font to your application.

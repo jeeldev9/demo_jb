@@ -1,3 +1,4 @@
+import 'package:demo_jb/ml_kit/home_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:demo_jb/page_animation/animation_1.dart';
@@ -70,13 +71,11 @@ class _HomeScreenState extends State<HomeScreen> {
               margin: EdgeInsets.only(top: 40, left: 20),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => HomeScreenLocalAuth()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => MyHomePage()));
                 },
                 child: Text(
-                  "Local Auth",
+                  "ML Kit",
                   style: TextStyle(
                     color: Colors.white,
                   ),
